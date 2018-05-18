@@ -1,0 +1,29 @@
+{
+  "name": "vizpack",
+  "version": "0.0.1",
+  "description": "Transform all HTML elements containing a graph description, from a HTML page, to SVG elements using Viz.js.",
+  "main": "lib/build-string.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "vizpack": "./bin/cli.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.15.1",
+    "underscore": "^1.9.0",
+    "viz.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "deasync": "^0.1.13",
+    "mocha": "^5.1.1"
+  },
+  "author": "Birros <birros@protonmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/birros/vizpack.git"
+  }
+}
